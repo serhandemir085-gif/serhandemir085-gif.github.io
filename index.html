@@ -3,104 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serhan Demir | Portfolyo</title>
-    <style>
-        :root {
-            --bg: #0f172a;
-            --card-bg: #1e293b;
-            --text: #f8fafc;
-            --accent: #38bdf8;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            text-align: center;
-            padding: 100px 20px;
-            background: linear-gradient(to bottom, #1e293b, #0f172a);
-        }
-        h1 { color: var(--accent); margin-bottom: 10px; }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-        .card {
-            background-color: var(--card-bg);
-            padding: 20px;
-            border-radius: 12px;
-            border: 1px solid #334155;
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
-        }
-        .tag {
-            background: #0ea5e9;
-            color: white;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            display: inline-block;
-            margin-bottom: 10px;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 15px;
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: bold;
-        }
-        footer { text-align: center; padding: 50px; opacity: 0.6; }
-    </style>
+    <title>serhan885 | CodeHub Yazılım & Otomasyon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <h1>Serhan Demir</h1>
-    <p>Geliştirdiğim Scriptler ve Programlar</p>
-</header>
-
-<div class="container">
-    <div class="grid">
-        <div class="card">
-            <span class="tag">Python</span>
-            <h3>Otomasyon Scripti</h3>
-            <p>Veri çekme ve raporlama süreçlerini otomatize eden kapsamlı bir script.</p>
-            <a href="#" class="btn">Koda Git →</a>
+    <header class="hero">
+        <div class="container">
+            <h1>serhan885</h1>
+            <p class="subtitle">CodeHub - Yazılım & Otomasyon Çözümleri</p>
+            
+            <div class="social-links" style="margin-top: 20px;">
+                <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" style="background-color: #3b82f6; color: white; border: none;">
+                    <i class="fas fa-shopping-cart"></i> Mağazamı Ziyaret Et (İtemsatış)
+                </a>
+                <a href="https://github.com/serhan885" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
         </div>
+    </header>
 
-        <div class="card">
-            <span class="tag">JavaScript</span>
-            <h3>Web Aracı</h3>
-            <p>Tarayıcı üzerinde çalışan pratik bir hesaplama veya görselleştirme aracı.</p>
-            <a href="#" class="btn">Koda Git →</a>
+    <section class="about">
+        <div class="container">
+            <h2>Geliştirici Hakkında</h2>
+            <p>
+                Merhaba, ben <strong>serhan885</strong>. 
+                Özellikle <strong>Python</strong>, <strong>Node.js</strong> ve <strong>Otomasyon Sistemleri</strong> üzerine çözümler üretiyorum.
+                Geliştirdiğim botlar, optimizasyon araçları ve yayıncı eklentileri ile dijital süreçleri hızlandırıyorum. 
+                Tüm projelerime ve satışta olan yazılımlarıma yukarıdaki mağaza linkinden ulaşabilirsiniz.
+            </p>
         </div>
+    </section>
 
-        <div class="card">
-            <span class="tag">C# / Desktop</span>
-            <h3>Masaüstü Uygulaması</h3>
-            <p>Kullanıcı yönetimi veya veri tabanı entegrasyonu içeren bir Windows programı.</p>
-            <a href="#" class="btn">Koda Git →</a>
+    <section class="projects">
+        <div class="container">
+            <h2>Geliştirdiğim Araçlar</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Titan X v2</h3>
+                    <p>Windows işletim sistemleri için geliştirilmiş, sistem kaynaklarını optimize eden ve performansı artıran gelişmiş araç.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Windows API</span>
+                        <span>Optimizasyon</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <h3>Titan VFX</h3>
+                    <p>Ses analizi yaparak videolara otomatik efekt ve animasyon ekleyen yapay zeka destekli editör aracı.</p>
+                    <div class="tags">
+                        <span>Yapay Zeka</span>
+                        <span>Otomatik Edit</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-futbol"></i></div>
+                    <h3>Futbol Arena</h3>
+                    <p>Canlı yayıncılar için izleyici etkileşimli, futbol temalı özel yayın arayüzü ve bildirim sistemi.</p>
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>Canlı Yayın</span>
+                        <span>İnteraktif</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                    <h3>Hesap Oluşturucu Bot</h3>
+                    <p>BlueStacks entegrasyonu ile seri şekilde YouTube hesabı oluşturan ve doğrulama süreçlerini yöneten bot.</p>
+                    <div class="tags">
+                        <span>Otomasyon</span>
+                        <span>BlueStacks</span>
+                        <span>Bot</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>SMM Bayi Otomasyonu</h3>
+                    <p>Farklı paneller (Medyapanel vb.) ile satış siteleri arasında API köprüsü kurarak siparişleri otomatize eden sistem.</p>
+                    <div class="tags">
+                        <span>API</span>
+                        <span>E-Ticaret</span>
+                        <span>Bayilik</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-film"></i></div>
+                    <h3>Video Randomizer</h3>
+                    <p>FFmpeg altyapısı ile videoları işleyerek platform algoritmaları için 'benzersiz' (unique) hale getiren script.</p>
+                    <div class="tags">
+                        <span>FFmpeg</span>
+                        <span>Video İşleme</span>
+                        <span>Script</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="cta-button" 
+                   style="background-color: #3b82f6; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);">
+                   <i class="fas fa-external-link-alt"></i> Ürünleri İncelemek İçin Tıklayın
+                </a>
+            </div>
+
         </div>
-    </div>
-</div>
+    </section>
 
-<footer>
-    <p>© 2026 Serhan Demir - GitHub Pages ile oluşturuldu</p>
-</footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 serhan885 | CodeHub. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
