@@ -3,126 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>serhan885 | CodeHub Yazılım & Otomasyon</title>
+    <title>serhan885 | CodeHub Yazılım Çözümleri</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <div class="bg-glow"></div>
+
+    <nav class="navbar">
+        <div class="logo">CodeHub <span class="badge">PRO</span></div>
+        <div class="socials">
+            <a href="https://github.com/serhan885" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </nav>
+
     <header class="hero">
-        <div class="container">
+        <div class="container hero-content">
+            <span class="tag">YAZILIM & OTOMASYON</span>
             <h1>serhan885</h1>
-            <p class="subtitle">CodeHub - Yazılım & Otomasyon Çözümleri</p>
+            <p class="subtitle">Dijital dünyayı otomatize eden, performansı zirveye taşıyan özel yazılım çözümleri.</p>
             
-            <div class="social-links" style="margin-top: 20px;">
-                <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" style="background-color: #3b82f6; color: white; border: none;">
-                    <i class="fas fa-shopping-cart"></i> Mağazamı Ziyaret Et (İtemsatış)
+            <div class="cta-group">
+                <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> Mağazamı Ziyaret Et
                 </a>
-                <a href="https://github.com/serhan885" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#projects" class="btn btn-secondary">Projeleri İncele</a>
             </div>
         </div>
     </header>
 
-    <section class="about">
+    <section id="projects" class="projects">
         <div class="container">
-            <h2>Geliştirici Hakkında</h2>
-            <p>
-                Merhaba, ben <strong>serhan885</strong>. 
-                Özellikle <strong>Python</strong>, <strong>Node.js</strong> ve <strong>Otomasyon Sistemleri</strong> üzerine çözümler üretiyorum.
-                Geliştirdiğim botlar, optimizasyon araçları ve yayıncı eklentileri ile dijital süreçleri hızlandırıyorum. 
-                Tüm projelerime ve satışta olan yazılımlarıma yukarıdaki mağaza linkinden ulaşabilirsiniz.
-            </p>
-        </div>
-    </section>
-
-    <section class="projects">
-        <div class="container">
-            <h2>Geliştirdiğim Araçlar</h2>
-            <div class="project-grid">
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-microchip"></i></div>
-                    <h3>Titan X v2</h3>
-                    <p>Windows işletim sistemleri için geliştirilmiş, sistem kaynaklarını optimize eden ve performansı artıran gelişmiş araç.</p>
-                    <div class="tags">
-                        <span>Python</span>
-                        <span>Windows API</span>
-                        <span>Optimizasyon</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
-                    <h3>Titan VFX</h3>
-                    <p>Ses analizi yaparak videolara otomatik efekt ve animasyon ekleyen yapay zeka destekli editör aracı.</p>
-                    <div class="tags">
-                        <span>Yapay Zeka</span>
-                        <span>Otomatik Edit</span>
-                        <span>Python</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-futbol"></i></div>
-                    <h3>Futbol Arena</h3>
-                    <p>Canlı yayıncılar için izleyici etkileşimli, futbol temalı özel yayın arayüzü ve bildirim sistemi.</p>
-                    <div class="tags">
-                        <span>Node.js</span>
-                        <span>Canlı Yayın</span>
-                        <span>İnteraktif</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fab fa-youtube"></i></div>
-                    <h3>Hesap Oluşturucu Bot</h3>
-                    <p>BlueStacks entegrasyonu ile seri şekilde YouTube hesabı oluşturan ve doğrulama süreçlerini yöneten bot.</p>
-                    <div class="tags">
-                        <span>Otomasyon</span>
-                        <span>BlueStacks</span>
-                        <span>Bot</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
-                    <h3>SMM Bayi Otomasyonu</h3>
-                    <p>Farklı paneller (Medyapanel vb.) ile satış siteleri arasında API köprüsü kurarak siparişleri otomatize eden sistem.</p>
-                    <div class="tags">
-                        <span>API</span>
-                        <span>E-Ticaret</span>
-                        <span>Bayilik</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-icon"><i class="fas fa-film"></i></div>
-                    <h3>Video Randomizer</h3>
-                    <p>FFmpeg altyapısı ile videoları işleyerek platform algoritmaları için 'benzersiz' (unique) hale getiren script.</p>
-                    <div class="tags">
-                        <span>FFmpeg</span>
-                        <span>Video İşleme</span>
-                        <span>Script</span>
-                    </div>
-                </div>
-
-            </div>
+            <h2 class="section-title">Geliştirilen Sistemler</h2>
             
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="cta-button" 
-                   style="background-color: #3b82f6; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);">
-                   <i class="fas fa-external-link-alt"></i> Ürünleri İncelemek İçin Tıklayın
-                </a>
+            <div class="grid">
+                
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/titan-x.jpg" alt="Titan X v2" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Titan+X+v2'">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Titan X v2</h3>
+                            <span class="tech">Python</span>
+                        </div>
+                        <p>Windows işletim sistemleri için geliştirilmiş, sistem kaynaklarını optimize eden ve FPS performansını maksimize eden profesyonel araç.</p>
+                        <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="card-link">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/titan-vfx.jpg" alt="Titan VFX" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Titan+VFX'">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Titan VFX</h3>
+                            <span class="tech">AI / Yapay Zeka</span>
+                        </div>
+                        <p>Ses dalgalarını analiz ederek videolara otomatik efekt, vurgu ve animasyon ekleyen yapay zeka destekli editör asistanı.</p>
+                        <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="card-link">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/futbol-arena.jpg" alt="Futbol Arena" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Futbol+Arena'">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Futbol Arena</h3>
+                            <span class="tech">Node.js</span>
+                        </div>
+                        <p>Canlı yayıncılar için özel tasarlanmış, izleyici etkileşimli, anlık bildirimli ve görsel açıdan zengin futbol yayın arayüzü.</p>
+                        <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="card-link">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/youtube-bot.jpg" alt="YouTube Bot" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=YouTube+Bot'">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>YouTube Hesap Botu</h3>
+                            <span class="tech">Otomasyon</span>
+                        </div>
+                        <p>BlueStacks entegrasyonu ile seri şekilde YouTube hesabı oluşturan, doğrulama süreçlerini yöneten tam otomatik bot yazılımı.</p>
+                        <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="card-link">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/smm-panel.jpg" alt="SMM Panel" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=SMM+Otomasyon'">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>SMM Bayi Otomasyonu</h3>
+                            <span class="tech">API / Backend</span>
+                        </div>
+                        <p>Medyapanel ve benzeri sağlayıcılar ile satış siteleri arasında köprü kurarak siparişleri otomatize eden gelişmiş API sistemi.</p>
+                        <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="card-link">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/video-gen.jpg" alt="Video Generator" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Video+Randomizer'">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Video Randomizer</h3>
+                            <span class="tech">FFmpeg</span>
+                        </div>
+                        <p>Videoları pixel ve metadata düzeyinde işleyerek platform algoritmaları için tamamen 'benzersiz' (unique) hale getiren script.</p>
+                        <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="card-link">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
             </div>
 
+            <div class="footer-cta">
+                <h3>Projelerimi Kendi Gözünle Gör</h3>
+                <p>Tüm yazılımlarım ve scriptlerim İtemsatış mağazamda mevcuttur.</p>
+                <a href="https://www.itemsatis.com/p/CodeHub" target="_blank" class="btn btn-primary">MAĞAZAYA GİT</a>
+            </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 serhan885 | CodeHub. Tüm hakları saklıdır.</p>
-        </div>
+        <p>&copy; 2026 serhan885 | <strong>CodeHub</strong> Yazılım Çözümleri</p>
     </footer>
 
 </body>
